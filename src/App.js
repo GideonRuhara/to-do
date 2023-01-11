@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/* import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -19,6 +19,21 @@ function App() {
         </a>
       </header>
     </div>
+  );
+}
+
+export default App; */
+
+import Home from "./Views/Home";
+
+function App() {
+  return(
+    <div className="App">
+     <>
+     <Home/>
+     </>
+     </div>
+
   );
 }
 
